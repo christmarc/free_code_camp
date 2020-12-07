@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">;
+ <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+  <div id ="container">
+    <header>
+      <h1 id="title">AJOUPA GRILL RESTAURANT</h1>
+      <p id="description">Because our customer mean a lot to us, we a conducting this short survey to know how to please you better</p>
+    </header>
+    <main>
+      <form id ="survey-form">
+        
+        <label for "name" id = "name-label">Name</label> <br>
+        <input type ="text" id ="name" name = "name" placeholder = "Jhon" required>
+        
+        <br><br>
+        
+        <label for "email" id="email-label"> Email</label> <br>
+        <input type ="email" id ="email" name = "email" placeholder = "jhon@gmail.com"  required>
+        
+        <br><br>
+        
+        <label for "number" id = "number-label"> From 0 - 10, How would you rate our services</label> <br>
+        <input type ="number" id="number" name ="number" min = 0 max =10  placeholder = 10>
+        
+        <br><br>
+        
+         <p> What is your favorite meal in our restaurant?</p>
+        <select id = "dropdown">
+          <option value ="breakfast"> Breakfast</option>
+          <option value ="lunch"> Lunch</option>
+          <option value ="diner"> Diner</option>
+          <option value ="supper"> Supper</option>
+        </select>
+        
+        <br><br>
+        
+        <p>What type of drink do you like with your meal?</p> <br>
+        <input type="radio" id="Juice" name="drink" value="juice">
+            <label for="juice">Juice</label><br>
+        
+            <input type="radio" id="wine" name="drink" value="wine">
+            <label for="wine">Wine</label><br>
+        
+            <input type="radio" id="water" name="drink" value="water">
+            <label for="water">Water</label> <br>
+        
+            <input type="radio" id="beer" name="drink" value="beer">
+            <label for="beer">Beer</label>
+
+           <br><br>
+        
+        <p> Where do you like to eat, inside or ouside ?</p>
+           <input type="checkbox" id="inside" name="inside" value="Inside">
+                <label for="inside"> Inside</label><br>
+        
+                <input type="checkbox" id="outside" name="outside" value="Outside">
+                <label for="outside"> Outside</label><br>
+        
+                <br><br>
+        
+        <p> Please add any comment or suggestions</p>
+        <textarea cols= 30 rows = 10>
+       
+        </textarea>
+        
+        <br><br>
+        
+        <input type = "submit" id ="submit">
+        
+      </form>
+    </main>
+    
+    </div>
+  </body>
+ 
+</html>
